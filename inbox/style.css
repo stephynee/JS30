@@ -1,0 +1,39 @@
+html {
+  font-family: sans-serif;
+  background-color: #F7C50B;
+  font-size: 18px;
+}
+
+.inbox {
+  width: 350px;
+  margin: 50px auto;
+  background-color: #FFFFFF;
+  border-radius:5px;
+  box-shadow:10px 10px 0 rgba(0,0,0,0.1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom:0;
+}
+
+.item input {
+  margin:20px;
+}
+
+.item p {
+  flex: 1;
+  margin: 0;
+  padding: 20px;
+  border-left: 1px solid #D1E2FF;
+}
+
+input:checked + p {
+  background:#F9F9F9;
+  text-decoration: line-through;
+}
